@@ -1,21 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url();
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    min-height: 100vh; 
-    margin: 0;
 }
 
 body {
-    background-image: url("https://media.istockphoto.com/id/1162911786/photo/the-team-of-cooks-backs-in-the-work-in-the-modern-kitchen-the-workflow-of-the-restaurant-in.jpg?s=612x612&w=0&k=20&c=Nn1xO1gbUGnEzTHp4Sitg_ouob_co3jY5hDv_kHWzxE=");
-    background-size: 261px;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://www.indiewire.com/wp-content/uploads/2017/10/matrix-code.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
     animation: moveIt 10s linear infinite;
   }
   @keyframes moveIt {
-    from {background-position: bottom left;}
-    to {background-position: top right;}
+    from {background-position: 0 100%;}
+    to {background-position: 0 0;}
   }
 
 h1{
